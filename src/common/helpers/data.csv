@@ -1,0 +1,19 @@
+Section,Criteria,Score,Observation,Link
+Organograma,Abrangência,0.2,O organograma apresenta informações suficientes quanto aos cargos e setores da instituição.,https://www.ufba.br/sites/portal.ufba.br/files/Organograma_UFBA_2015_novo.pdf
+Organograma,Atualidade,0,Não há nome do responsável pela elaboração, nome e data da criação ou última atualização,
+Organograma,Acessível,0.2,Acessível em três cliques,
+Organograma,Acessibilidade,0.1,A informação está no formato PDF, possuindo apenas o recurso de diminuir e aumentar o tamanho do texto e com contraste de cores que possibilitam a legibilidade.,
+Organograma,Clareza,0.2,A estrutura do texto possibilita uma fácil compreensão do documento,
+Organograma,Reutilização,0.1,O organograma está disponível apenas no formato PDF,
+Estatuto e Regimento Institucional,Abrangência,0.2,A informação está completa. Com riqueza de detalhamento sobre o Estatuto e Regimento Institucional,https://www.ufba.br/sites/portal.ufba.br/files/Estatuto_Regimento_UFBA_0.pdf
+Estatuto e Regimento Institucional,Atualidade,0.2,O documento possui data e nome do responsável pela sua elaboração,
+Estatuto e Regimento Institucional,Acessível,0.2,Acessível em três cliques,
+Estatuto e Regimento Institucional,Acessibilidade,0.1,A informação está no formato PDF, possuindo apenas o recurso de diminuir e aumentar o tamanho do texto e com contraste de cores que possibilitam a legibilidade.,
+Estatuto e Regimento Institucional,Clareza,0.2,A estrutura do texto possibilita uma fácil compreensão do documento,
+Estatuto e Regimento Institucional,Reutilização,0.1,Está disponível apenas no formato PDF,
+Departamentos,Abrangência,0.2,As informações quanto aos departamentos da UFBA estão sobre o Estatuto e Regimento Institucional,https://ufba.br/estrutura/orgaos_estruturantes
+Departamentos,Atualidade,0,Não há data de atualização das informações,
+Departamentos,Acessível,0.2,Acessível em três cliques,
+Departamentos,Acessibilidade,0.1,As informações possuem contraste de cores entre o texto e fundo; há leitor de libras; possui alto contraste,
+Departamentos,Clareza,0.2,As informações estão claras,
+Departamentos,Reutilização,0.1,As informações estão disponíveis apenas em formato de texto,

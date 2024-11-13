@@ -1,0 +1,62 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Preparação') {
+            steps {
+                // Limpa o workspace antes de iniciar
+                cleanWs()
+            }
+        }
+
+        stage('Instalar Dependências') {
+            steps {
+                // Instala as dependências do projeto
+                bat 'npm install'
+            }
+        }
+
+        stage('Executar Testes') {
+            steps {
+                // Executa os testes do projeto
+                bat 'npm test'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Realiza o build do projeto (se aplicável)
+                bat 'npm run build'
+            }
+        }
+
+        // stage('Deploy') {
+        //     when {
+        //         branch 'main' // Executa o deploy apenas na branch main
+        //     }
+        //     steps {
+        //         // Comandos de deploy, por exemplo:
+        //         // sh './deploy.sh'
+        //         echo 'Iniciando o processo de deploy...'
+        //         // Adicione seus comandos de deploy aqui
+        //     }
+        // }
+    }
+
+    post {
+        always {
+            // Ações que sempre serão executadas após o pipeline, independentemente do resultado
+            cleanWs()
+        }
+
+        success {
+            // Ações a serem executadas em caso de sucesso
+            echo 'Pipeline concluído com sucesso!'
+        }
+
+        failure {
+            // Ações a serem executadas em caso de falha
+            echo 'Pipeline falhou. Verifique os logs para mais detalhes.'
+        }
+    }
+}
